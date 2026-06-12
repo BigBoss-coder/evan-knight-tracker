@@ -1,0 +1,44 @@
+name: Evan Knight Round Tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 12-23 * * *"
+    - cron: "*/15 0-3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  check-round-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tracker
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check Evan Knight round status
+        env:
+          PLAYER_ID: "56731"
+          PLAYER_NAME: "Evan Knight"
+          ROUND_COMPLETE_ONLY: "true"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EXTRA_LEADERBOARD_URLS: ${{ vars.EXTRA_LEADERBOARD_URLS }}
+        run: python tracker.py
+
+      - name: Save tracker state
+        run: |
+          if [ -z "$(git status --porcelain -- state)" ]; then
+            echo "No tracker state changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/evan_knight_state.json
+          git commit -m "Update Evan Knight tracker state"
+          git push
