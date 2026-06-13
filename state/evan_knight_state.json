@@ -1,14 +1,14 @@
 {
-  "last_checked_at": 1781375814,
+  "last_checked_at": 1781383801,
   "last_seen": {
     "Y2026006": {
-      "position": "T10",
+      "position": "T20",
       "round": "3",
-      "seen_at": 1781375814,
-      "status": "ACTIVE",
-      "thru": "12",
-      "today": "-4",
-      "total": "-10",
+      "seen_at": 1781383801,
+      "status": "R3 Completed",
+      "thru": "F",
+      "today": "-2",
+      "total": "-8",
       "tournament_name": "Inter Rapidisimo Golf Championship"
     }
   },
@@ -19,6 +19,14 @@
       "sent_at": 1781294778,
       "today": "-4",
       "total": "-6",
+      "tournament_name": "Inter Rapidisimo Golf Championship"
+    },
+    "Y2026006:round:3:complete": {
+      "position": "T20",
+      "round": "3",
+      "sent_at": 1781383801,
+      "today": "-2",
+      "total": "-8",
       "tournament_name": "Inter Rapidisimo Golf Championship"
     }
   }
