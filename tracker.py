@@ -291,24 +291,29 @@ def build_message(player_name: str, result: PlayerRound) -> str:
 
 def send_telegram(message: str) -> bool:
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    chat_ids = [
+        chat_id.strip()
+        for chat_id in os.getenv("TELEGRAM_CHAT_ID", "").split(",")
+        if chat_id.strip()
+    ]
     dry_run = env_bool("DRY_RUN", False)
 
-    if dry_run or not token or not chat_id:
+    if dry_run or not token or not chat_ids:
         print("Notification preview:\n")
         print(message)
-        if not token or not chat_id:
+        if not token or not chat_ids:
             print("\nTelegram token/chat ID not set, so no message was sent.")
         return False
 
-    payload = urllib.parse.urlencode({"chat_id": chat_id, "text": message}).encode()
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    request = urllib.request.Request(url, data=payload, method="POST")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        body = response.read().decode("utf-8", errors="replace")
-    data = json.loads(body)
-    if not data.get("ok"):
-        raise RuntimeError(f"Telegram send failed: {body}")
+    for chat_id in chat_ids:
+        payload = urllib.parse.urlencode({"chat_id": chat_id, "text": message}).encode()
+        request = urllib.request.Request(url, data=payload, method="POST")
+        with urllib.request.urlopen(request, timeout=30) as response:
+            body = response.read().decode("utf-8", errors="replace")
+        data = json.loads(body)
+        if not data.get("ok"):
+            raise RuntimeError(f"Telegram send failed for chat {chat_id}: {body}")
     return True
 
 

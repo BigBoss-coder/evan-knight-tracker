@@ -38,6 +38,30 @@ Telegram is the recommended free notification channel.
 
 6. Find your chat ID in the response. It is usually under `message.chat.id`.
 
+To send alerts to multiple private chats, separate chat IDs with commas:
+
+```text
+8504757036,1111111111,2222222222
+```
+
+Each person must first open your bot in Telegram and send it `/start`. Then visit:
+
+```text
+https://api.telegram.org/bot<TOKEN>/getUpdates
+```
+
+Look for each person's `chat.id`.
+
+You can also use a Telegram group instead:
+
+1. Create a Telegram group.
+2. Add your bot to the group.
+3. Send a message in the group.
+4. Open the `getUpdates` URL again.
+5. Use the group's `chat.id` as `TELEGRAM_CHAT_ID`.
+
+Group chat IDs usually start with a minus sign, like `-1001234567890`.
+
 ## GitHub setup
 
 Create a GitHub repo for this folder, then add these repository secrets:
