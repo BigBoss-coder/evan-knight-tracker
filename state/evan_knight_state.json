@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1782509410,
+  "last_checked_at": 1782509709,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -12,13 +12,13 @@
       "tournament_name": "Inter Rapidisimo Golf Championship"
     },
     "Y2026019": {
-      "position": "T132",
+      "position": "T118",
       "round": "1",
-      "seen_at": 1782509410,
+      "seen_at": 1782509709,
       "status": "ACTIVE",
-      "thru": "11",
-      "today": "+2",
-      "total": "+2",
+      "thru": "9",
+      "today": "+1",
+      "total": "+1",
       "tournament_name": "Blue Cross and Blue Shield of Kansas Wichita Open presented by Syndeo"
     }
   },
