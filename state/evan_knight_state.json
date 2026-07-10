@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1783694109,
+  "last_checked_at": 1783694428,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -12,9 +12,9 @@
       "tournament_name": "Inter Rapidisimo Golf Championship"
     },
     "Y2026009": {
-      "position": "T5",
+      "position": "T6",
       "round": "2",
-      "seen_at": 1783694109,
+      "seen_at": 1783694428,
       "status": "BETWEEN_ROUNDS",
       "thru": "-",
       "today": "-",
