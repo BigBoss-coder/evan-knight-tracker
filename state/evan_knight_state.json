@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1783795816,
+  "last_checked_at": 1783796109,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -12,13 +12,13 @@
       "tournament_name": "Inter Rapidisimo Golf Championship"
     },
     "Y2026009": {
-      "position": "T6",
+      "position": "T4",
       "round": "3",
-      "seen_at": 1783795816,
+      "seen_at": 1783796109,
       "status": "ACTIVE",
-      "thru": "11",
-      "today": "-2",
-      "total": "-14",
+      "thru": "12",
+      "today": "-4",
+      "total": "-16",
       "tournament_name": "Explore NB Open"
     },
     "Y2026019": {
