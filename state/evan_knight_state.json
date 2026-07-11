@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1783800618,
+  "last_checked_at": 1783800909,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -14,8 +14,8 @@
     "Y2026009": {
       "position": "T1",
       "round": "3",
-      "seen_at": 1783800617,
-      "status": "ACTIVE",
+      "seen_at": 1783800909,
+      "status": "R3 Completed",
       "thru": "F",
       "today": "-9",
       "total": "-21",
