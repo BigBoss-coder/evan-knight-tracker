@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1784223310,
+  "last_checked_at": 1784223613,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -22,13 +22,13 @@
       "tournament_name": "Explore NB Open"
     },
     "Y2026011": {
-      "position": "T27",
+      "position": "T37",
       "round": "1",
-      "seen_at": 1784223310,
-      "status": "ACTIVE",
-      "thru": "17*",
-      "today": "-3",
-      "total": "-3",
+      "seen_at": 1784223612,
+      "status": "R1 Completed",
+      "thru": "F*",
+      "today": "-2",
+      "total": "-2",
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
     },
     "Y2026019": {
@@ -98,6 +98,14 @@
       "today": "-4",
       "total": "-25",
       "tournament_name": "Explore NB Open"
+    },
+    "Y2026011:round:1:complete": {
+      "position": "T37",
+      "round": "1",
+      "sent_at": 1784223613,
+      "today": "-2",
+      "total": "-2",
+      "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
     },
     "Y2026019:round:1:complete": {
       "position": "T103",
