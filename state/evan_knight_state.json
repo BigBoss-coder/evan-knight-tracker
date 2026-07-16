@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1784220312,
+  "last_checked_at": 1784220614,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -22,9 +22,9 @@
       "tournament_name": "Explore NB Open"
     },
     "Y2026011": {
-      "position": "T30",
+      "position": "T33",
       "round": "1",
-      "seen_at": 1784220312,
+      "seen_at": 1784220614,
       "status": "ACTIVE",
       "thru": "15*",
       "today": "-2",
