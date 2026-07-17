@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1784318416,
+  "last_checked_at": 1784318708,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -22,11 +22,11 @@
       "tournament_name": "Explore NB Open"
     },
     "Y2026011": {
-      "position": "T47",
+      "position": "T46",
       "round": "2",
-      "seen_at": 1784318416,
+      "seen_at": 1784318708,
       "status": "ACTIVE",
-      "thru": "7",
+      "thru": "6",
       "today": "-3",
       "total": "-5",
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
