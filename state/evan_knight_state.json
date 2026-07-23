@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1784833809,
+  "last_checked_at": 1784834113,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -34,9 +34,9 @@
     "Y2026018": {
       "position": "T46",
       "round": "1",
-      "seen_at": 1784833809,
+      "seen_at": 1784834113,
       "status": "ACTIVE",
-      "thru": "2*",
+      "thru": "3*",
       "today": "-1",
       "total": "-1",
       "tournament_name": "Osprey Valley Open"
