@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1784916909,
+  "last_checked_at": 1784917212,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -32,13 +32,13 @@
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
     },
     "Y2026018": {
-      "position": "T22",
+      "position": "T35",
       "round": "2",
-      "seen_at": 1784916909,
-      "status": "ACTIVE",
-      "thru": "17",
-      "today": "-3",
-      "total": "-5",
+      "seen_at": 1784917211,
+      "status": "R2 Completed",
+      "thru": "F",
+      "today": "-2",
+      "total": "-4",
       "tournament_name": "Osprey Valley Open"
     },
     "Y2026019": {
@@ -131,6 +131,14 @@
       "sent_at": 1784849411,
       "today": "-2",
       "total": "-2",
+      "tournament_name": "Osprey Valley Open"
+    },
+    "Y2026018:round:2:complete": {
+      "position": "T35",
+      "round": "2",
+      "sent_at": 1784917212,
+      "today": "-2",
+      "total": "-4",
       "tournament_name": "Osprey Valley Open"
     },
     "Y2026019:round:1:complete": {
