@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1787251210,
+  "last_checked_at": 1787251512,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -32,13 +32,13 @@
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
     },
     "Y2026014": {
-      "position": "T72",
+      "position": "T100",
       "round": "1",
-      "seen_at": 1787251210,
+      "seen_at": 1787251511,
       "status": "ACTIVE",
-      "thru": "17",
-      "today": "+1",
-      "total": "+1",
+      "thru": "F",
+      "today": "+2",
+      "total": "+2",
       "tournament_name": "Manitoba Open"
     },
     "Y2026018": {
@@ -134,6 +134,14 @@
       "today": "-1",
       "total": "-3",
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
+    },
+    "Y2026014:round:1:complete": {
+      "position": "T100",
+      "round": "1",
+      "sent_at": 1787251512,
+      "today": "+2",
+      "total": "+2",
+      "tournament_name": "Manitoba Open"
     },
     "Y2026018:round:1:complete": {
       "position": "T40",
