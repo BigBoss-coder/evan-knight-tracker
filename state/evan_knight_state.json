@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1787248213,
+  "last_checked_at": 1787248511,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -32,9 +32,9 @@
       "tournament_name": "Commissionaires Ottawa Open presented by L\u00e9pine Apartments"
     },
     "Y2026014": {
-      "position": "T60",
+      "position": "T61",
       "round": "1",
-      "seen_at": 1787248213,
+      "seen_at": 1787248511,
       "status": "ACTIVE",
       "thru": "15",
       "today": "+1",
