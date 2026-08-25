@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1787689545,
+  "last_checked_at": 1787689824,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -44,8 +44,8 @@
     "Y2026015": {
       "position": "-",
       "round": "1",
-      "seen_at": 1787689545,
-      "status": "Groupings Official",
+      "seen_at": 1787689824,
+      "status": "NOT_STARTED",
       "thru": "-",
       "today": "-",
       "total": "-",
