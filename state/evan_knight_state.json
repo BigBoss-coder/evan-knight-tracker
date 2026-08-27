@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1787835910,
+  "last_checked_at": 1787836211,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -42,9 +42,9 @@
       "tournament_name": "Manitoba Open"
     },
     "Y2026015": {
-      "position": "T26",
+      "position": "T28",
       "round": "1",
-      "seen_at": 1787835910,
+      "seen_at": 1787836211,
       "status": "ACTIVE",
       "thru": "3",
       "today": "+1",
