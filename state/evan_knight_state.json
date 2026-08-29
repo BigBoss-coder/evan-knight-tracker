@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1788034815,
+  "last_checked_at": 1788035109,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -42,11 +42,11 @@
       "tournament_name": "Manitoba Open"
     },
     "Y2026015": {
-      "position": "T52",
+      "position": "T53",
       "round": "3",
-      "seen_at": 1788034815,
+      "seen_at": 1788035109,
       "status": "ACTIVE",
-      "thru": "11*",
+      "thru": "9*",
       "today": "+1",
       "total": "-4",
       "tournament_name": "CRMC Championship presented by Northern Pacific Center"
