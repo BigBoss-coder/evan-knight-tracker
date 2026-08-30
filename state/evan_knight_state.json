@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1788112211,
+  "last_checked_at": 1788112511,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -44,9 +44,9 @@
     "Y2026015": {
       "position": "62",
       "round": "4",
-      "seen_at": 1788112211,
+      "seen_at": 1788112511,
       "status": "ACTIVE",
-      "thru": "F",
+      "thru": "17",
       "today": "+2",
       "total": "-3",
       "tournament_name": "CRMC Championship presented by Northern Pacific Center"
