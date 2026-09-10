@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1789076712,
+  "last_checked_at": 1789077010,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -12,13 +12,13 @@
       "tournament_name": "Inter Rapidisimo Golf Championship"
     },
     "Y2026007": {
-      "position": "T100",
+      "position": "T119",
       "round": "1",
-      "seen_at": 1789076712,
+      "seen_at": 1789077010,
       "status": "ACTIVE",
-      "thru": "3*",
-      "today": "E",
-      "total": "E",
+      "thru": "2*",
+      "today": "+1",
+      "total": "+1",
       "tournament_name": "Digital Commerce Group Open"
     },
     "Y2026009": {
