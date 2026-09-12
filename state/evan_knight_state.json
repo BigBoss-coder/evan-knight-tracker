@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1789198211,
+  "last_checked_at": 1789198508,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -14,7 +14,7 @@
     "Y2026007": {
       "position": "CUT",
       "round": "2",
-      "seen_at": 1789198211,
+      "seen_at": 1789198508,
       "status": "R2 Completed",
       "thru": "-",
       "today": "-",
