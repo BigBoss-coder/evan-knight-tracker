@@ -1,5 +1,5 @@
 {
-  "last_checked_at": 1789229415,
+  "last_checked_at": 1790958867,
   "last_seen": {
     "Y2026006": {
       "position": "T30",
@@ -20,6 +20,16 @@
       "today": "-",
       "total": "-5",
       "tournament_name": "Digital Commerce Group Open"
+    },
+    "Y2026008": {
+      "position": "CUT",
+      "round": "2",
+      "seen_at": 1790958866,
+      "status": "R2 Completed",
+      "thru": "-",
+      "today": "-",
+      "total": "-2",
+      "tournament_name": "ATB Classic presented by Building Trades of Alberta"
     },
     "Y2026009": {
       "position": "2",
@@ -122,6 +132,14 @@
       "today": "-7",
       "total": "-5",
       "tournament_name": "Digital Commerce Group Open"
+    },
+    "Y2026008:round:2:complete": {
+      "position": "CUT",
+      "round": "2",
+      "sent_at": 1790958867,
+      "today": "-",
+      "total": "-2",
+      "tournament_name": "ATB Classic presented by Building Trades of Alberta"
     },
     "Y2026009:round:1:complete": {
       "position": "T1",
